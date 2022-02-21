@@ -24,17 +24,14 @@ Use len() to find the total words.
 Run the program to determine the number of words in the file created.
 
 ## PROGRAM:
-```
-Developed by: A NAVEEN KUMAR
-Register Number: 212221240032
-
+~~~
 import sys
 fp= open(sys.argv[1])
 data=fp.read()
 words=data.split()
 print("Total Words:",len(words))
 
-```
+~~
 ### OUTPUT:
 
 ![OUTPUT](out1.png)
