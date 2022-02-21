@@ -31,7 +31,7 @@ data=fp.read()
 words=data.split()
 print("Total Words:",len(words))
 
-~~
+~~~
 ### OUTPUT:
 
 ![OUTPUT](out1.png)
